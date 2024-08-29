@@ -18,8 +18,9 @@ const BookRow: React.FC<BookRowProps> = ({
   handleDelete,
 }) => {
   const confirmAndDelete = () => {
+    if (!book.id) return;
     if (window.confirm("Are you sure you want to delete this book?")) {
-      book.id && handleDelete(book.id);
+      handleDelete(book.id);
     }
   };
 

@@ -9,4 +9,5 @@ export interface Book {
   language?: string;
   pageCount?: number;
   isbn?: string;
+  coverUrl?: string;
 }

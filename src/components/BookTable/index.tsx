@@ -139,7 +139,10 @@ const BookTable: React.FC<BookTableProps> = ({
               >
                 Title
               </TableSortLabel>
-              <IconButton onClick={(e) => handleFilterMenuOpen(e, "title")}>
+              <IconButton
+                onClick={(e) => handleFilterMenuOpen(e, "title")}
+                aria-label="filter by title"
+              >
                 <FilterListIcon />
               </IconButton>
               <Menu
@@ -167,7 +170,10 @@ const BookTable: React.FC<BookTableProps> = ({
               >
                 Author
               </TableSortLabel>
-              <IconButton onClick={(e) => handleFilterMenuOpen(e, "author")}>
+              <IconButton
+                onClick={(e) => handleFilterMenuOpen(e, "author")}
+                aria-label="filter by author"
+              >
                 <FilterListIcon />
               </IconButton>
               <Menu
@@ -197,6 +203,7 @@ const BookTable: React.FC<BookTableProps> = ({
               </TableSortLabel>
               <IconButton
                 onClick={(e) => handleFilterMenuOpen(e, "publicationDate")}
+                aria-label="filter by publication date"
               >
                 <FilterListIcon />
               </IconButton>
@@ -225,7 +232,10 @@ const BookTable: React.FC<BookTableProps> = ({
               >
                 Language
               </TableSortLabel>
-              <IconButton onClick={(e) => handleFilterMenuOpen(e, "language")}>
+              <IconButton
+                onClick={(e) => handleFilterMenuOpen(e, "language")}
+                aria-label="filter by language"
+              >
                 <FilterListIcon />
               </IconButton>
               <Menu
@@ -253,7 +263,10 @@ const BookTable: React.FC<BookTableProps> = ({
               >
                 Pages
               </TableSortLabel>
-              <IconButton onClick={(e) => handleFilterMenuOpen(e, "pageCount")}>
+              <IconButton
+                onClick={(e) => handleFilterMenuOpen(e, "pageCount")}
+                aria-label="filter by page count"
+              >
                 <FilterListIcon />
               </IconButton>
               <Menu
