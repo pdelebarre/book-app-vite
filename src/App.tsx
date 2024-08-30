@@ -3,7 +3,7 @@ import React from "react";
 import { ThemeProvider, createTheme, Theme } from "@mui/material/styles";
 import  Container  from "@mui/material/Container";
 import Typography from '@mui/material/Typography';
-import BookList from "./components/BookList";
+import BookList from "./components/BookList/BookList";
 
 const theme: Theme = createTheme();
 

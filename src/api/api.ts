@@ -1,5 +1,5 @@
 import axios, { AxiosResponse } from "axios";
-import { Book } from "./types/book";
+import { Book } from "../types/book";
 
 // Use environment variables for the baseURL
 const apiURL = import.meta.env.VITE_API_BASE_URL;

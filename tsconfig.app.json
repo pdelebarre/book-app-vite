@@ -21,6 +21,6 @@
     "noFallthroughCasesInSwitch": true
   },
 
-  "include": ["**/*.ts", "**/*.tsx", "./vitest.setup.ts"],
+  "include": ["**/*.ts", "**/*.tsx", "vitest.setup.ts"],
   "exclude": ["node_modules"]
 }
