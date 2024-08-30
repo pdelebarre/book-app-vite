@@ -1,14 +1,14 @@
 <testExecutions version="1">
   <file path="src/components/PopupForm/tests/PopupForm.formFields.test.tsx">
-    <testCase name="PopupForm Form Fields - should update book field values when typing" duration="264" />
+    <testCase name="PopupForm Form Fields - should update book field values when typing" duration="430" />
   </file>
   <file path="src/components/PopupForm/tests/PopupForm.interactions.test.tsx">
-    <testCase name="PopupForm Interactions - should call handleClose when the Cancel button is clicked" duration="275" />
-    <testCase name="PopupForm Interactions - should call handleSubmit with the book when Save button is clicked" duration="66" />
+    <testCase name="PopupForm Interactions - should call handleClose when the Cancel button is clicked" duration="445" />
+    <testCase name="PopupForm Interactions - should call handleSubmit with the book when Save button is clicked" duration="80" />
   </file>
   <file path="src/components/PopupForm/tests/PopupForm.render.test.tsx">
-    <testCase name="PopupForm Component - should not render the dialog when open is false" duration="27" />
-    <testCase name="PopupForm Component - should display the correct ISBN when provided" duration="215" />
-    <testCase name="PopupForm Component - should display the book cover image when provided" duration="96" />
+    <testCase name="PopupForm Component - should not render the dialog when open is false" duration="59" />
+    <testCase name="PopupForm Component - should display the correct ISBN when provided" duration="356" />
+    <testCase name="PopupForm Component - should display the book cover image when provided" duration="72" />
   </file>
 </testExecutions>
