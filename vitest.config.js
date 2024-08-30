@@ -5,4 +5,9 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: ["./vitest.setup.ts"],
   },
+  plugins: [
+    createReporter({
+      reporters: ["lcov", "text"],
+    }),
+  ],
 });
